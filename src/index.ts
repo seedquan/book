@@ -4,17 +4,7 @@ interface Env {
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
-    const url = new URL(request.url);
-    if (url.pathname === "/chapters/01" || url.pathname === "/chapters/01/") {
-      const headers = new Headers({ Location: new URL("/", url).toString() });
-      headers.set("Cache-Control", "public, max-age=300");
-      headers.set("X-Content-Type-Options", "nosniff");
-      headers.set("X-Frame-Options", "DENY");
-      headers.set("Referrer-Policy", "no-referrer");
-      return new Response(null, { status: 308, headers });
-    }
-    const assetRequest = new Request(url.toString(), request);
-    const response = await env.ASSETS.fetch(assetRequest);
+    const response = await env.ASSETS.fetch(request);
     const headers = new Headers(response.headers);
     headers.set("X-Content-Type-Options", "nosniff");
     headers.set("X-Frame-Options", "DENY");
