@@ -6,7 +6,7 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === "/chapters/01" || url.pathname === "/chapters/01/") {
-      url.pathname = "/index.html";
+      url.pathname = "/";
     }
     const assetRequest = new Request(url.toString(), request);
     const response = await env.ASSETS.fetch(assetRequest);
