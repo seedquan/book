@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "slug": "moonlight-lighthouse",
+      "title": "月亮灯塔守护队",
+      "subtitle": "第一季：找回失去的光",
+      "description": "涯涯、小光和阿灰在方块世界里守护月亮灯塔的儿童冒险连载。",
+      "audience": "小学低中年级",
+      "author": "AI Book Factory",
+      "status": "serializing",
+      "chapter_count": 1,
+      "reading_url": "/",
+      "cover": {
+        "accent": "#52784e",
+        "mood": "月光、森林与勇气"
+      }
+    }
+  ]
+}

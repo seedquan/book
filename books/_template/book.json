@@ -1,0 +1,15 @@
+{
+  "slug": "replace-me",
+  "title": "新书标题",
+  "subtitle": "一句话副标题",
+  "description": "用一句话说明这本书讲什么，以及它适合谁读。",
+  "audience": "小学低中年级",
+  "author": "AI Book Factory",
+  "status": "draft",
+  "chapter_count": 0,
+  "reading_url": "",
+  "cover": {
+    "accent": "#52784e",
+    "mood": "填写封面气质"
+  }
+}
