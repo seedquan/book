@@ -47,7 +47,8 @@ article p { margin: 0 0 1.25em; text-align: justify; }
 article .dialogue { color: #4d5c4e; }
 .end-mark { text-align: center; letter-spacing: 8px; color: var(--gold); padding: 18px 0 4px; }
 
-.next { margin-top: 26px; display: flex; justify-content: space-between; align-items: center; gap: 18px; padding: 21px 24px; border-radius: 13px; background: #e6efdd; color: #38543d; }
+.next { margin-top: 26px; display: flex; justify-content: space-between; align-items: center; gap: 18px; padding: 21px 24px; border-radius: 13px; background: #e6efdd; color: #38543d; text-decoration: none; transition: transform .16s ease, background .16s ease; }
+.next:hover { background: #dcebd0; transform: translateY(-2px); }
 .next strong { display: block; font-size: 17px; margin-top: 4px; }.next small { color: #6d8467; font-weight: 700; letter-spacing: .5px; }.next p { margin: 5px 0 0; color: #5f765d; font-size: 13px; line-height: 1.5; }.next b { font-size: 23px; }
 .footer { margin-top: 48px; text-align: center; color: #948777; font-size: 12px; }
 
