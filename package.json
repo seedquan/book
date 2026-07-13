@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "wrangler dev",
-    "check": "wrangler deploy --dry-run",
-    "deploy": "wrangler deploy"
+    "dev": "env -u CLOUDFLARE_API_TOKEN wrangler dev",
+    "check": "env -u CLOUDFLARE_API_TOKEN wrangler deploy --dry-run",
+    "deploy": "env -u CLOUDFLARE_API_TOKEN wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "^4.81.1"
