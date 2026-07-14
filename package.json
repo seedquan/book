@@ -7,7 +7,8 @@
     "check": "env -u CLOUDFLARE_API_TOKEN wrangler deploy --dry-run",
     "deploy": "env -u CLOUDFLARE_API_TOKEN wrangler deploy",
     "new-book": "node scripts/create-book.mjs",
-    "build:catalog": "node scripts/build-catalog.mjs"
+    "build:catalog": "node scripts/build-catalog.mjs",
+    "build:chapters": "node scripts/build-chapters.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.81.1"

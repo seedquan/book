@@ -50,6 +50,11 @@ article .dialogue { color: #4d5c4e; }
 .next { margin-top: 26px; display: flex; justify-content: space-between; align-items: center; gap: 18px; padding: 21px 24px; border-radius: 13px; background: #e6efdd; color: #38543d; text-decoration: none; transition: transform .16s ease, background .16s ease; }
 .next:hover { background: #dcebd0; transform: translateY(-2px); }
 .next strong { display: block; font-size: 17px; margin-top: 4px; }.next small { color: #6d8467; font-weight: 700; letter-spacing: .5px; }.next p { margin: 5px 0 0; color: #5f765d; font-size: 13px; line-height: 1.5; }.next b { font-size: 23px; }
+.chapter-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+.chapter-list a { display: grid; gap: 4px; padding: 16px 18px; border: 1px solid #dfe8d8; border-radius: 11px; background: #f8fbf5; color: #38543d; text-decoration: none; transition: transform .16s ease, background .16s ease; }
+.chapter-list a:hover { background: #eef5e8; transform: translateY(-2px); }
+.chapter-list span { color: #71816e; font-size: 13px; font-weight: 700; }
+.chapter-list strong { font-size: 18px; }
 .footer { margin-top: 48px; text-align: center; color: #948777; font-size: 12px; }
 
 @media (max-width: 520px) { .sky { min-height: 218px; }.tower { right: 17%; }.moon { right: 12%; }.site-header { margin-top: -45px; padding: 0 14px; }.season { display: none; } main { padding: 31px 14px 52px; }.reader { border-radius: 11px; }.next { padding: 18px; }.next b { display: none; } }
